@@ -6,9 +6,5 @@ def test_greeting():
 
 def test_adder():
     assert adder(1, 2) == 3
-
-test_greeting()
-test_adder()
-
-print('passed')
+    assert adder(3, 4) == 8
 
