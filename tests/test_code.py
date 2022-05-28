@@ -6,5 +6,5 @@ def test_greeting():
 
 def test_adder():
     assert adder(1, 2) == 3
-    assert adder(3, 4) == 8
+    assert adder(3, 4) == 7
 
